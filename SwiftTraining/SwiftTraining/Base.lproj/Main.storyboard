@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="rx5-Sy-3M3">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="rx5-Sy-3M3">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
@@ -55,11 +55,30 @@
                     <navigationItem key="navigationItem" id="Ee9-sP-NbO"/>
                     <connections>
                         <segue destination="vN7-aj-N6H" kind="show" identifier="HomeToDetailSegue" id="YnS-ZM-oRm"/>
+                        <segue destination="kqT-MX-8T0" kind="presentation" identifier="homeToAddSegue" id="kgc-7R-Oh7"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-221" y="229"/>
+            <point key="canvasLocation" x="-187" y="234"/>
+        </scene>
+        <!--Add Student Controller-->
+        <scene sceneID="rDa-2G-dVi">
+            <objects>
+                <viewController id="kqT-MX-8T0" customClass="AddStudentController" customModule="SwiftTraining" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="5LV-aA-z5l"/>
+                        <viewControllerLayoutGuide type="bottom" id="8Uu-i1-08e"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="gJP-LZ-tez">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="i0J-Uw-Nb4" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="544" y="244"/>
         </scene>
     </scenes>
 </document>

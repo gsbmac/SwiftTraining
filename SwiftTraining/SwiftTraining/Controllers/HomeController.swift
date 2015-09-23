@@ -38,11 +38,20 @@ class HomeController:BaseController, UITableViewDelegate, UITableViewDataSource,
         }
     }
     
+    override func viewWillAppear(animated: Bool) {
+        //self.homeView?.entryTable.reloadData()
+        Connector.getStudents(processStudents)
+    }
+    
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject!) {
+        if segue.identifier == "HomeToDetailSegue" {
+        
         let dest:DetailController = segue.destinationViewController as! DetailController
         dest.detailView?.nameDetailLabel.text = student?.name
         dest.detailView?.birthdayDetailLabel.text = student?.bday
         dest.detailView?.degreeDetailLabel.text = student?.degree
+        
+        }
     }
     
     func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
@@ -84,6 +93,7 @@ class HomeController:BaseController, UITableViewDelegate, UITableViewDataSource,
     
     func addButton(){
         print("Button is pressed as per protocol.")
+        self.performSegueWithIdentifier("homeToAddSegue", sender: self)
     }
     
 }

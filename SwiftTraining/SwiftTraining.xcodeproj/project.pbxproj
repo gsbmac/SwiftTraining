@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A376CC91BB28DE300F4B7BE /* AddStudentController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A376CC81BB28DE300F4B7BE /* AddStudentController.swift */; settings = {ASSET_TAGS = (); }; };
+		0A376CCB1BB28E2E00F4B7BE /* AddStudentView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A376CCA1BB28E2E00F4B7BE /* AddStudentView.xib */; settings = {ASSET_TAGS = (); }; };
+		0A376CCD1BB28EC800F4B7BE /* AddStudentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A376CCC1BB28EC800F4B7BE /* AddStudentView.swift */; settings = {ASSET_TAGS = (); }; };
 		920E70EF1BB20D6800337FDF /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920E70ED1BB20D6800337FDF /* SwiftyJSON.swift */; settings = {ASSET_TAGS = (); }; };
 		920E70F01BB20D6800337FDF /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920E70EE1BB20D6800337FDF /* Utility.swift */; settings = {ASSET_TAGS = (); }; };
 		920E70F21BB20D8E00337FDF /* HomeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 920E70F11BB20D8E00337FDF /* HomeView.xib */; settings = {ASSET_TAGS = (); }; };
@@ -36,6 +39,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0A376CC81BB28DE300F4B7BE /* AddStudentController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddStudentController.swift; sourceTree = "<group>"; };
+		0A376CCA1BB28E2E00F4B7BE /* AddStudentView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddStudentView.xib; sourceTree = "<group>"; };
+		0A376CCC1BB28EC800F4B7BE /* AddStudentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddStudentView.swift; sourceTree = "<group>"; };
 		920E70ED1BB20D6800337FDF /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SwiftyJSON.swift; path = Utilities/SwiftyJSON.swift; sourceTree = "<group>"; };
 		920E70EE1BB20D6800337FDF /* Utility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Utility.swift; path = Utilities/Utility.swift; sourceTree = "<group>"; };
 		920E70F11BB20D8E00337FDF /* HomeView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = HomeView.xib; path = Xibs/HomeView.xib; sourceTree = "<group>"; };
@@ -151,6 +157,7 @@
 				920E70FB1BB23C4100337FDF /* DetailController.swift */,
 				920E70FC1BB23C4100337FDF /* BaseController.swift */,
 				920E70F31BB20D9700337FDF /* HomeController.swift */,
+				0A376CC81BB28DE300F4B7BE /* AddStudentController.swift */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -161,6 +168,7 @@
 				9277B2821BB17A0300005EC6 /* HomeView.swift */,
 				9277B27E1BB1732300005EC6 /* BaseView.swift */,
 				920E70F71BB23B3200337FDF /* DetailView.swift */,
+				0A376CCC1BB28EC800F4B7BE /* AddStudentView.swift */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -170,6 +178,7 @@
 			children = (
 				920E70F11BB20D8E00337FDF /* HomeView.xib */,
 				920E70F51BB2389800337FDF /* DetailView.xib */,
+				0A376CCA1BB28E2E00F4B7BE /* AddStudentView.xib */,
 			);
 			name = Xibs;
 			sourceTree = "<group>";
@@ -257,6 +266,7 @@
 			files = (
 				9277B25A1BB15C3B00005EC6 /* Main.storyboard in Resources */,
 				920E70F21BB20D8E00337FDF /* HomeView.xib in Resources */,
+				0A376CCB1BB28E2E00F4B7BE /* AddStudentView.xib in Resources */,
 				9277B25F1BB15C3B00005EC6 /* LaunchScreen.xib in Resources */,
 				9277B25C1BB15C3B00005EC6 /* Images.xcassets in Resources */,
 				920E70F61BB2389800337FDF /* DetailView.xib in Resources */,
@@ -285,7 +295,9 @@
 				9277B2831BB17A0300005EC6 /* HomeView.swift in Sources */,
 				920E70F41BB20D9700337FDF /* HomeController.swift in Sources */,
 				920E70F01BB20D6800337FDF /* Utility.swift in Sources */,
+				0A376CC91BB28DE300F4B7BE /* AddStudentController.swift in Sources */,
 				920E70FD1BB23C4100337FDF /* DetailController.swift in Sources */,
+				0A376CCD1BB28EC800F4B7BE /* AddStudentView.swift in Sources */,
 				920E70EF1BB20D6800337FDF /* SwiftyJSON.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
