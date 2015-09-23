@@ -43,11 +43,9 @@ class Connector{
         let request : NSMutableURLRequest = NSMutableURLRequest()
         request.URL = NSURL(string: url)
         request.HTTPMethod = "GET"
-        print("GOING HERE")
         let session = NSURLSession.sharedSession()
         session.dataTaskWithRequest(request, completionHandler: {(data: NSData?, response: NSURLResponse?, error: NSError?) in
             let jsona = JSON(data: data!)
-            print("IN HERE \(jsona)")
             completion(jsona)
         }).resume()
     
